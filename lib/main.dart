@@ -33,7 +33,7 @@ class MyApp extends StatelessWidget {
                 height: 10,
               ),
               Text(
-                'Khawaja Afaiz',
+                'Shah Zaib',
                 style: TextStyle(
                   fontWeight: FontWeight.bold,
                   color: Colors.white,
@@ -43,7 +43,7 @@ class MyApp extends StatelessWidget {
                 height: 10,
               ),
               Text(
-                "Fluter Developer",
+                "Flutter Developer",
                 style: TextStyle(
                   fontWeight: FontWeight.bold,
                   color: Colors.white,
@@ -60,7 +60,9 @@ class MyApp extends StatelessWidget {
                 margin: EdgeInsets.symmetric(vertical: 10.0, horizontal: 25.0),
                 // color: Colors.white,
                 child: ListTile(
-
+                  leading: Icon(
+                    Icons.phone,
+                    color: Colors.amber,
                   ),
                   title: Text(
                     "+92 344 1512824",
