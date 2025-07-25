@@ -60,9 +60,7 @@ class MyApp extends StatelessWidget {
                 margin: EdgeInsets.symmetric(vertical: 10.0, horizontal: 25.0),
                 // color: Colors.white,
                 child: ListTile(
-                  leading: Icon(
-                    Icons.phone,
-                    color: Colors.amber,
+
                   ),
                   title: Text(
                     "+92 344 1512824",
